@@ -1,12 +1,14 @@
 # Voxel Mamba: Group-Free State Space Models for Point Cloud based 3D Object Detection
 
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2406.10700)
+
 This repo is the official implementation of the paper [Voxel Mamba: Group-Free State Space Models for Point Cloud based 3D Object Detection](). Our Voxel Mamba achieves state-of-the-art performance on Waymo and nuScene datasets.  
 
 ## News
--[24-6-14] Voxel Mamba will be released on [arxiv]()
+-[24-6-18] Voxel Mamba released on [arxiv](https://arxiv.org/abs/2406.10700)
 
 ## TODO
-- [ ] Release the [arXiv]() version.
+- [x] Release the [arXiv](https://arxiv.org/abs/2406.10700) version.
 - [ ] Clean up and release the code.
 - [ ] Release code of Waymo.
 - [ ] Release code of NuScenes.
@@ -17,12 +19,12 @@ This repo is the official implementation of the paper [Voxel Mamba: Group-Free S
 Validation set  
 |  Model  | mAPH_L1 | mAPH_L2 | Veh_L1 | Veh_L2 | Ped_L1 | Ped_L2 | Cyc_L1 | Cyc_L2 | Log |
 |---------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|  [Voxel Mamba]() | 79.6  |  73.6  | 80.8/80.3 | 72.6/72.2 | 85.0/80.8 | 77.7/73.6 | 78.6/77.6 | 75.7/74.8 | [Log]() | 
+|  Voxel Mamba | 79.6  |  73.6  | 80.8/80.3 | 72.6/72.2 | 85.0/80.8 | 77.7/73.6 | 78.6/77.6 | 75.7/74.8 | [Log]() | 
 
 Test set
-|  Model  | mAPH_L1 | mAPH_L2 | Veh_L1 | Veh_L2 | Ped_L1 | Ped_L2 | Cyc_L1 | Cyc_L2 | Log |
+|  Model  | mAPH_L1 | mAPH_L2 | Veh_L1 | Veh_L2 | Ped_L1 | Ped_L2 | Cyc_L1 | Cyc_L2 | Leaderboard |
 |---------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|  [Voxel Mamba]() | 79.6  |  74.3  | 84.4/84.0 | 77.0/76.6 | 84.8/80.6 | 79.0/74.9 | 75.4/74.3 | 72.6/71.5 | [Log]() | 
+|  Voxel Mamba | 79.6  |  74.3  | 84.4/84.0 | 77.0/76.6 | 84.8/80.6 | 79.0/74.9 | 75.4/74.3 | 72.6/71.5 | [leaderboard](https://waymo.com/open/challenges/detection-3d/results/d57ccce9-36ad/1718951969931000/) | 
 
 
 #### nuScene Dataset
@@ -32,9 +34,9 @@ Validation set
 |  [Voxel Mamba]() | 67.5 | 71.9 | 26.7 | 25.0 | 25.8 | 21.8 | 18.9| [ckpt]()| [Log]()|  
 
 Test set  
-|  Model  | mAP | NDS | mATE | mASE | mAOE | mAVE| mAAE | ckpt | Log |
+|  Model  | mAP | NDS | mATE | mASE | mAOE | mAVE| mAAE | Leaderboard | Submission |
 |---------|---------|--------|---------|---------|--------|---------|--------|--------|--------|
-|  [Voxel Mamba]() | 69.0 | 73.0 | 24.3 | 23.0 | 30.9 | 23.7 | 13.3| [ckpt]()| [Log]()|  
+|  [Voxel Mamba]() | 69.0 | 73.0 | 24.3 | 23.0 | 30.9 | 23.7 | 13.3| [leaderboard](https://www.nuscenes.org/object-detection?externalData=all&mapData=all&modalities=Lidar)| [Submission](https://drive.google.com/file/d/1k1F5H0sqvJGyKzDN2_bCHcY-o0gKCwmo/view?usp=sharing)|  
 
 
 Voxel Mamba's result on Waymo compared with other leading methods.
