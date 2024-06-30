@@ -78,6 +78,12 @@ bash scripts/dist_test.sh 8 --cfg_file <CONFIG_FILE> --ckpt <CHECKPOINT_FILE>
 ## Citation
 Please consider citing our work as follows if it is helpful.
 ```
+@article{zhang2024voxel,
+  title={Voxel Mamba: Group-Free State Space Models for Point Cloud based 3D Object Detection},
+  author={Zhang, Guowen and Fan, Lue and He, Chenhang and Lei, Zhen and Zhang, Zhaoxiang and Zhang, Lei},
+  journal={arXiv preprint arXiv:2406.10700},
+  year={2024}
+}
 ```
 
 ## Acknowledgments
