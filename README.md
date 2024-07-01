@@ -9,8 +9,8 @@ This repo is the official implementation of the paper [Voxel Mamba: Group-Free S
 
 ## TODO
 - [x] Release the [arXiv](https://arxiv.org/abs/2406.10700) version.
-- [ ] Clean up and release the code.
-- [ ] Release code of Waymo.
+- [x] Clean up and release the code.
+- [x] Release code of Waymo.
 - [ ] Release code of NuScenes.
 - [ ] Merge Voxel Mamba to [OpenPCDet](https://github.com/open-mmlab/OpenPCDet).
 
@@ -19,12 +19,12 @@ This repo is the official implementation of the paper [Voxel Mamba: Group-Free S
 Validation set  
 |  Model  | mAPH_L1 | mAPH_L2 | Veh_L1 | Veh_L2 | Ped_L1 | Ped_L2 | Cyc_L1 | Cyc_L2 | Log |
 |---------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|  Voxel Mamba | 79.6  |  73.6  | 80.8/80.3 | 72.6/72.2 | 85.0/80.8 | 77.7/73.6 | 78.6/77.6 | 75.7/74.8 | [Log]() | 
+|  [Voxel Mamba](tools/cfgs/voxel_mamba_models/voxel_mamba_waymo.yaml) | 79.6  |  73.6  | 80.8/80.3 | 72.6/72.2 | 85.0/80.8 | 77.7/73.6 | 78.6/77.6 | 75.7/74.8 | [Log](https://drive.google.com/file/d/1Kq7WR9OV2kByKUUkurZp878mERKWBJi5/view?usp=sharing) | 
 
 Test set
 |  Model  | mAPH_L1 | mAPH_L2 | Veh_L1 | Veh_L2 | Ped_L1 | Ped_L2 | Cyc_L1 | Cyc_L2 | Leaderboard |
 |---------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|  Voxel Mamba | 79.6  |  74.3  | 84.4/84.0 | 77.0/76.6 | 84.8/80.6 | 79.0/74.9 | 75.4/74.3 | 72.6/71.5 | [leaderboard](https://waymo.com/open/challenges/detection-3d/results/d57ccce9-36ad/1718951969931000/) | 
+|  [Voxel Mamba](tools/cfgs/voxel_mamba_models/voxel_mamba_waymo.yaml) | 79.6  |  74.3  | 84.4/84.0 | 77.0/76.6 | 84.8/80.6 | 79.0/74.9 | 75.4/74.3 | 72.6/71.5 | [leaderboard](https://waymo.com/open/challenges/detection-3d/results/d57ccce9-36ad/1718951969931000/) | 
 
 
 #### nuScene Dataset
@@ -59,7 +59,7 @@ cd data
 mkdir hilbert
 python ./tools/hilbert_curves/create_hilbert_curve_template.py
 ```
-
+You can also download Hilbert Template files from [Google Drive](https://drive.google.com/file/d/1Bts6Jt-GCcLtF27BoH8uRtAjdHvwmrf2/view?usp=sharing) or [BaiduYun](https://pan.baidu.com/s/1I9xTjR7PbKRFkbwiLJN2tQ)(code: kubf).
 
 ### Training
 ```
@@ -68,7 +68,7 @@ cd tools
 bash scripts/dist_train.sh 8 --cfg_file <CONFIG_FILE>
 ```
 
-### Testing
+### Testi
 ```
 # multi-gpu testing
 cd tools
@@ -88,7 +88,7 @@ Please consider citing our work as follows if it is helpful.
 
 ## Acknowledgments
 Voxel Mamba is based on [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) and [DSVT](https://github.com/Haiyang-W/DSVT).  
-We also thank the Centerpoint, TransFusion, OctFormer, and HEDNet authors for their efforts.
+We also thank the Centerpoint, TransFusion, OctFormer, Mamba, and HEDNet authors for their efforts.
 
 
 
