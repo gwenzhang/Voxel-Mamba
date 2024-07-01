@@ -5,7 +5,7 @@
 This repo is the official implementation of the paper [Voxel Mamba: Group-Free State Space Models for Point Cloud based 3D Object Detection](). Our Voxel Mamba achieves state-of-the-art performance on Waymo and nuScene datasets.  
 
 ## News
--[24-06-18] Voxel Mamba released on [arxiv](https://arxiv.org/abs/2406.10700)
+-[24-06-18] Voxel Mamba released on [arxiv](https://arxiv.org/abs/2406.10700)   
 -[24-07-01] Code of Waymo is released (SOTA).
 
 ## TODO
