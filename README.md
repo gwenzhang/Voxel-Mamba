@@ -69,7 +69,7 @@ cd tools
 bash scripts/dist_train.sh 8 --cfg_file <CONFIG_FILE>
 ```
 
-### Testi
+### Test
 ```
 # multi-gpu testing
 cd tools
