@@ -2,7 +2,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2406.10700)
 
-This repo is the official implementation of the paper [Voxel Mamba: Group-Free State Space Models for Point Cloud based 3D Object Detection](). Our Voxel Mamba achieves state-of-the-art performance on Waymo and nuScene datasets.  
+This repo is the official implementation of the paper [Voxel Mamba: Group-Free State Space Models for Point Cloud based 3D Object Detection](https://arxiv.org/abs/2406.10700). Our Voxel Mamba achieves state-of-the-art performance on Waymo and nuScene datasets.  
 
 ## News
 -[24-06-18] Voxel Mamba released on [arxiv](https://arxiv.org/abs/2406.10700)   
@@ -13,6 +13,7 @@ This repo is the official implementation of the paper [Voxel Mamba: Group-Free S
 - [x] Clean up and release the code.
 - [x] Release code of Waymo.
 - [ ] Release code of NuScenes.
+- [ ] Release code of ERFs visualization.
 - [ ] Merge Voxel Mamba to [OpenPCDet](https://github.com/open-mmlab/OpenPCDet).
 
 ## Main Results
