@@ -2,13 +2,13 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2406.10700)
 
-This repo is the official implementation of the paper [Voxel Mamba: Group-Free State Space Models for Point Cloud based 3D Object Detection](https://arxiv.org/abs/2406.10700). Our Voxel Mamba achieves state-of-the-art performance on Waymo and nuScene datasets.  
+This repo is the official implementation of the paper [Voxel Mamba: Group-Free State Space Models for Point Cloud based 3D Object Detection](https://arxiv.org/abs/2406.10700). Our Voxel Mamba achieves state-of-the-art performance on Waymo and nuScene datasets. Our Voxel Mamba abandons the grouping operation and serializes voxels into one single sequence, enabling better efficiency.
 
-## News
+## 🔥News
 -[24-06-18] Voxel Mamba released on [arxiv](https://arxiv.org/abs/2406.10700)   
 -[24-07-01] Code of Waymo is released (SOTA).
 
-## TODO
+## 📘TODO
 - [x] Release the [arXiv](https://arxiv.org/abs/2406.10700) version.
 - [x] Clean up and release the code.
 - [x] Release code of Waymo.
@@ -16,7 +16,7 @@ This repo is the official implementation of the paper [Voxel Mamba: Group-Free S
 - [ ] Release code of ERFs visualization.
 - [ ] Merge Voxel Mamba to [OpenPCDet](https://github.com/open-mmlab/OpenPCDet).
 
-## Main Results
+## 🏆Main Results
 #### Waymo Open Dataset
 Validation set  
 |  Model  | mAPH_L1 | mAPH_L2 | Veh_L1 | Veh_L2 | Ped_L1 | Ped_L2 | Cyc_L1 | Cyc_L2 | Log |
@@ -48,7 +48,7 @@ We hope that our Voxel Mamba can provide a potential group-free solution for eff
   <img src="docs/Speed_Performance.png" width="500"/>
 </div>
 
-## Usage
+## 🚀Usage
 ### Installation
 Please refer to [INSTALL.md](docs/INSTALL.md) for installation.
 
@@ -67,7 +67,7 @@ You can also download Hilbert Template files from [Google Drive](https://drive.g
 ```
 # multi-gpu training
 cd tools
-bash scripts/dist_train.sh 8 --cfg_file <CONFIG_FILE>
+bash scripts/dist_train.sh 8 --cfg_file ./cfgs/voxel_mamba_models/voxel_mamba_waymo.yaml # for waymo
 ```
 
 ### Test
@@ -90,7 +90,7 @@ Please consider citing our work as follows if it is helpful.
 
 ## Acknowledgments
 Voxel Mamba is based on [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) and [DSVT](https://github.com/Haiyang-W/DSVT).  
-We also thank the Centerpoint, TransFusion, OctFormer, Mamba, and HEDNet authors for their efforts.
+We also thank the CenterPoint, TransFusion, OctFormer, Mamba, and HEDNet authors for their efforts.
 
 
 
