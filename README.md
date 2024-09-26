@@ -2,11 +2,12 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2406.10700)
 
-This repo is the official implementation of the paper [Voxel Mamba: Group-Free State Space Models for Point Cloud based 3D Object Detection](https://arxiv.org/abs/2406.10700). Our Voxel Mamba achieves state-of-the-art performance on Waymo and nuScene datasets. It abandons the grouping operation and serializes voxels into one single sequence, enabling better efficiency.
+This repo is the official implementation of NIPS24 paper [Voxel Mamba: Group-Free State Space Models for Point Cloud based 3D Object Detection](https://arxiv.org/abs/2406.10700). Our Voxel Mamba achieves state-of-the-art performance on Waymo and nuScene datasets. It abandons the grouping operation and serializes voxels into one single sequence, enabling better efficiency.
 
 ## 🔥News
 -[24-06-18] Voxel Mamba released on [arxiv](https://arxiv.org/abs/2406.10700)   
 -[24-07-01] Code of Waymo is released (SOTA).
+-[24-09-26] Voxel Mamba is accepted by NIPS24 Spotlight!
 
 ## 📘TODO
 - [x] Release the [arXiv](https://arxiv.org/abs/2406.10700) version.
