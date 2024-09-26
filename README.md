@@ -6,7 +6,7 @@ This repo is the official implementation of NIPS24 paper [Voxel Mamba: Group-Fre
 
 ## 🔥News
 -[24-06-18] Voxel Mamba released on [arxiv](https://arxiv.org/abs/2406.10700)   
--[24-07-01] Code of Waymo is released (SOTA).
+-[24-07-01] Code of Waymo is released (SOTA).  
 -[24-09-26] Voxel Mamba is accepted by NIPS24 Spotlight!
 
 ## 📘TODO
